@@ -1,0 +1,31 @@
+---
+compiled_package_info:
+  package_name: move-playground
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    admin: 5a5e4bf66077215d385c2178e9a4ce2321c5f8cdc79ca849064dece5b36ce308
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    pseudo_lp: 5826a2e4ff609b7bd4fc3b6d4b3a5410c6f00f8ca40c5f496227c1a6a38dd1fb
+    resource: 5826a2e4ff609b7bd4fc3b6d4b3a5410c6f00f8ca40c5f496227c1a6a38dd1fb
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: A64A70F29EB8ACDB4AB9AE793C764ED8CC5770DC70A19A8D6D34732379A08304
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses:
+      pseudo_lp: 5826a2e4ff609b7bd4fc3b6d4b3a5410c6f00f8ca40c5f496227c1a6a38dd1fb
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - MoveStdlib
