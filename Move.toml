@@ -1,11 +1,12 @@
 [package]
-name = 'move-playground'
+name = 'PseudoLp'
 version = '1.0.0'
 
 [dependencies.AptosFramework]
 git = 'https://github.com/aptos-labs/aptos-core.git'
 rev = 'main'
 subdir = 'aptos-move/framework/aptos-framework'
+
 
 [addresses]
 admin = "5a5e4bf66077215d385c2178e9a4ce2321c5f8cdc79ca849064dece5b36ce308"
