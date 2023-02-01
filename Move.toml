@@ -2,12 +2,9 @@
 name = 'PseudoLp'
 version = '1.0.0'
 
-[dependencies.AptosFramework]
-git = 'https://github.com/aptos-labs/aptos-core.git'
-rev = 'main'
-subdir = 'aptos-move/framework/aptos-framework'
-
+[dependencies]
+AptosFramework = { git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'main', subdir = 'aptos-move/framework/aptos-framework' }
 
 [addresses]
-admin = "5a5e4bf66077215d385c2178e9a4ce2321c5f8cdc79ca849064dece5b36ce308"
-resource = "5826a2e4ff609b7bd4fc3b6d4b3a5410c6f00f8ca40c5f496227c1a6a38dd1fb"
+admin = "fc9e2d5d9d640c0dda9bdeac5db8a15076f329ae6274a8b8d9506ddcabea18a7"
+resource = "915d6c8dcda99c249d8a2231d6a4a193747375fdb6f599a9cb96a8597d2aae88"
